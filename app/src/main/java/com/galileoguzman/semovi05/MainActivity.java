@@ -17,6 +17,6 @@ public class MainActivity extends AppCompatActivity {
         webView = (WebView) findViewById(R.id.webView);
         WebSettings webSettings = webView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        webView.loadUrl("https://capacitacionescoco.com");
+        webView.loadUrl(BuildConfig.BASE_URL);
     }
 }
